@@ -36,3 +36,143 @@
     transform: rotate(360deg);
   }
 }
+
+.profile-card {
+  display: flex;
+  border: 1px solid black;
+  width: 25%;
+  padding: 10px;
+  margin: 5px auto;
+}
+.profile-card div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.Random {
+  border: 1px solid black;
+  width: 60%;
+  margin: 5px auto;
+}
+
+.BoxColor {
+  width: 60%;
+  height: 100px;
+  margin: 5px auto;
+  border: 1px solid black;
+}
+
+.BoxColor p {
+  color: white;
+  font-weight: 700;
+}
+
+.CreditCard img {
+  height: 25px;
+}
+
+.CreditCard {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 160px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+  gap: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: end;
+}
+.container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0;
+  font-size: 12px;
+}
+
+.container-card-exp {
+  display: flex;
+}
+.DriverCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #455FB5;
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.DriverCard img {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+}
+
+.driver-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  color: white;
+}
+
+.LikeButton {
+  padding: 10px 20px;
+  background-color: rgb(126, 126, 202);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.Dice {
+  height: 200px;
+}
+
+.Carousel-button {
+  padding: 10px 20px;
+}
+
+.Carousel-image { 
+  height: 200px;
+}
+
+.NumbersTable {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 20px auto;
+}
+.Num {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FaceBook {
+  border: 1px solid black;
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.profile-img {
+  height: 200px;
+  width: 200px;
+}
+
+.color-cont {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+}
